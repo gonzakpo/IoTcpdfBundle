@@ -15,7 +15,7 @@ Add following lines to your `composer.json` file:
 
 Execute:
 
-    php composer.phar update "mwsimple/crud-generator"
+    php composer.phar update "gonzakpo/tcpdfbundle"
 
 Add it to the `AppKernel.php` class:
 
