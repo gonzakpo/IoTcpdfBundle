@@ -10,7 +10,7 @@ Add following lines to your `composer.json` file:
 
     "require": {
       ...
-      "mwsimple/crud-generator": "2.3.*@dev"
+      "gonzakpo/tcpdfbundle": "dev-master"
     }
 
 Execute:
@@ -19,8 +19,8 @@ Execute:
 
 Add it to the `AppKernel.php` class:
 
-  // ...
-    "gonzakpo/tcpdfbundle": "dev-master"
+    // ...
+    new Io\TcpdfBundle\IoTcpdfBundle(),
 
 
 ### No Using composer
