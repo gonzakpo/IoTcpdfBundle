@@ -1,5 +1,30 @@
 How to Install
 ==============
+## Installation
+
+### Using composer
+
+Add following lines to your `composer.json` file:
+
+### Symfony 2.3.*
+
+    "require": {
+      ...
+      "mwsimple/crud-generator": "2.3.*@dev"
+    }
+
+Execute:
+
+    php composer.phar update "mwsimple/crud-generator"
+
+Add it to the `AppKernel.php` class:
+
+  // ...
+    "gonzakpo/tcpdfbundle": "dev-master"
+
+
+### No Using composer
+
   1. Download TCPDF library at http://sourceforge.net/projects/tcpdf/files/
       and put it in vendor folder
 
