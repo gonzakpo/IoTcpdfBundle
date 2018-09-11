@@ -3,7 +3,6 @@
 	"type": "symfony-bundle",
 	"description": "Provides TCPDF integration for Symfony",
 	"keywords": [ "tcpdf", "pdf" ],
-	"license": "LGPL",
 	"authors": [
 		{
 			"name": "Alessio",
